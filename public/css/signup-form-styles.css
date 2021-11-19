@@ -1,0 +1,174 @@
+:root{
+    --purple:#750288;
+    --black:#130f40;
+    --light-color:#666;
+    --box-shadow:0 1.5rem 1.5rem rgba(0,0,0,.1);
+    --outline-hover:.2rem solid var(--black);
+}
+*{
+    font-family: 'kumbh Sans', sans-serif;
+    box-sizing: border-box;
+}
+h1{
+    color: var(--purple);
+    text-align: center;
+}
+
+.sub-form {
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+}
+
+.sub-form input{
+    border:1px solid var(--black);
+}
+
+.main {
+    width: 100%;
+    background: url(../resources/Px_BackGround-1.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+ 
+header {
+    text-align: center;
+}
+
+.form-center {
+    max-width: 400px;
+    min-width: 300px;
+    border: 5px solid var(--purple);
+    padding: 2rem;
+    background-color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.form-center h2 {
+    font-size: 2rem;
+    color: var(--purple);
+    margin: 1rem 0;
+}
+
+.fname{
+    padding: 0.5rem 0;
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+}
+
+.lname{
+    margin: 0.5rem 0;
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+}
+.email{
+    margin: 0.5rem 0;
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+}
+.password{
+    margin: 0.5rem 0;
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+}
+.re-enterpassword{
+    margin: 0.5rem 0;
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+}
+.checkbox{
+    margin: 1rem 0;
+}
+.dropdown {
+    margin: 0.5rem 0;
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+}
+.dropdown select {
+    height: 36px;
+    color: var(--purple);
+    border:.15rem solid var(--purple);
+    border-radius: .5rem;
+}
+
+.form-button {
+    margin: 0.5rem 0;
+    width: 100%;
+    flex-direction: column;
+    height: 100px;
+}
+
+.checkbox input {
+    height:auto;
+} 
+
+label {
+    height: 24px;
+    font-size: 1.5rem;
+    color: var(--purple);
+}
+input {
+    height: 36px;
+    border:.15rem solid var(--purple);
+    border-radius: .1rem;
+}
+
+.fname .invalid { 
+    border:.25rem solid red;
+}
+
+.lname .invalid { 
+    border:.25rem solid red;
+}
+
+.email .invalid { 
+    border:.25rem solid red;
+}
+
+.password .invalid { 
+    border:.25rem solid red;
+}
+
+.re-enterpassword .invalid { 
+    border:.25rem solid red;
+}
+
+button:hover {
+    background-color: var(--purple);
+    border:.15rem solid white;
+    color: white;
+}
+button {
+    margin: 0.30rem 0;
+    padding: 0.20rem 0.20rem;
+    width: 100%;
+    height: 40%;
+    color: var(--purple);
+    border:.15rem solid var(--purple);
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+.footnotes {
+    font-size:x-small;
+}
+p{
+    font-size: xx-small;
+    color: #750288;
+}
+
+footer {
+    grid-area: footer;
+    padding: 1rem;
+}
+
+

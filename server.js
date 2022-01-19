@@ -13,4 +13,4 @@ app.post('/form', (req, res) => {
 
 app.use(express.static('public'));
 
-app.listen(PORT, () => console.log(`http://localhost:${PORT}/`));
+app.listen(process.env.PORT || 3000);
